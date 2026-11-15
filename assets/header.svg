@@ -17,7 +17,7 @@
     <clipPath id="round"><rect width="1200" height="280" rx="18"/></clipPath>
   </defs>
   <style>
-    .name{font:700 54px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#f8fafc;letter-spacing:-1px}
+    .name{font:700 46px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#f8fafc;letter-spacing:-1px}
     .role{font:500 22px ui-monospace,'SF Mono',Menlo,Consolas,monospace;fill:url(#accent);opacity:0}
     .meta{font:400 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#94a3b8;letter-spacing:.4px}
     .r1{animation:cycle 16s infinite 0s}
