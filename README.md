@@ -16,6 +16,8 @@ My working rule: the model proposes, deterministic code and evals decide. That m
 
 - **Now:** LLM agents, RAG and text-to-SQL; BIM quality checks (IFC, IDS); physics-informed forecasting.
 
+<img src="assets/domains.svg" alt="Three domains: procurement and finance, BIM and construction, oil and gas" width="100%"/>
+
 ## Featured projects
 
 | Project | What it does | Stack |
@@ -52,6 +54,8 @@ My working rule: the model proposes, deterministic code and evals decide. That m
 
 ## How I work
 
+<img src="assets/pipeline.svg" alt="Data, schema, model, checks, evals, ship" width="100%"/>
+
 - Tests and lint run in CI before a README claims anything.
 - Prototypes are labelled as prototypes; limitations sit next to features.
 - Demo data is synthetic or public. Nothing in these repos comes from a private client.
@@ -60,3 +64,5 @@ My working rule: the model proposes, deterministic code and evals decide. That m
   <img src="https://github-readme-stats.vercel.app/api?username=AyanbergenSaduakassov07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165" alt="GitHub stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyanbergenSaduakassov07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165" alt="Top languages"/>
 </p>
+
+<img src="assets/footer.svg" alt="" width="100%"/>

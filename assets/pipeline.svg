@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Pipeline: data, semantic layer, model proposes, deterministic checks, evals, ship">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <path id="rail" d="M110 110H1090"/>
+  </defs>
+  <style>
+    .bg{fill:#0d1117}
+    .node{fill:#0f1b2a;stroke:url(#g);stroke-width:2}
+    .lbl{font:600 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#e2e8f0;text-anchor:middle}
+    .sub{font:400 12px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#94a3b8;text-anchor:middle}
+    .title{font:600 13px ui-monospace,Menlo,Consolas,monospace;fill:#34d399;letter-spacing:2px}
+    .rail{stroke:#38bdf8;stroke-opacity:.3;stroke-width:2;stroke-dasharray:6 8;animation:flow 1.4s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-14}}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 3s ease-out infinite}
+    .r2{animation-delay:.5s}.r3{animation-delay:1s}.r4{animation-delay:1.5s}.r5{animation-delay:2s}.r6{animation-delay:2.5s}
+    @keyframes ring{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(1.7)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect class="bg" width="1200" height="220" rx="16"/>
+  <text class="title" x="40" y="38">HOW A FEATURE SHIPS</text>
+  <use href="#rail" class="rail" fill="none"/>
+  <g>
+    <g><circle class="ring" cx="110" cy="110" r="30" fill="none" stroke="#38bdf8"/><circle class="node" cx="110" cy="110" r="30"/><text class="lbl" x="110" y="115">Data</text><text class="sub" x="110" y="168">real, labelled</text></g>
+    <g><circle class="ring r2" cx="300" cy="110" r="30" fill="none" stroke="#38bdf8"/><circle class="node" cx="300" cy="110" r="30"/><text class="lbl" x="300" y="115">Schema</text><text class="sub" x="300" y="168">semantic layer</text></g>
+    <g><circle class="ring r3" cx="500" cy="110" r="30" fill="none" stroke="#38bdf8"/><circle class="node" cx="500" cy="110" r="30"/><text class="lbl" x="500" y="115">Model</text><text class="sub" x="500" y="168">proposes, tool calls</text></g>
+    <g><circle class="ring r4" cx="700" cy="110" r="30" fill="none" stroke="#34d399"/><circle class="node" cx="700" cy="110" r="30"/><text class="lbl" x="700" y="115">Checks</text><text class="sub" x="700" y="168">deterministic code</text></g>
+    <g><circle class="ring r5" cx="900" cy="110" r="30" fill="none" stroke="#34d399"/><circle class="node" cx="900" cy="110" r="30"/><text class="lbl" x="900" y="115">Evals</text><text class="sub" x="900" y="168">regression suite</text></g>
+    <g><circle class="ring r6" cx="1090" cy="110" r="30" fill="none" stroke="#34d399"/><circle class="node" cx="1090" cy="110" r="30"/><text class="lbl" x="1090" y="115">Ship</text><text class="sub" x="1090" y="168">CI green</text></g>
+  </g>
+  <circle r="6" fill="#34d399"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#rail"/></animateMotion></circle>
+  <circle r="6" fill="#38bdf8" opacity=".7"><animateMotion dur="7s" begin="3.5s" repeatCount="indefinite"><mpath href="#rail"/></animateMotion></circle>
+</svg>

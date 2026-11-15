@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+  <style>
+    .w1{animation:w 16s linear infinite}.w2{animation:w 26s linear infinite reverse}
+    @keyframes w{to{transform:translateX(-600px)}}
+    .t{font:500 14px ui-monospace,Menlo,Consolas,monospace;fill:#94a3b8;text-anchor:middle}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1200" height="120" fill="#0d1117"/>
+  <g class="w2"><path d="M0 70Q150 40 300 70T600 70T900 70T1200 70T1500 70T1800 70V120H0Z" fill="#38bdf8" fill-opacity=".14"/></g>
+  <g class="w1"><path d="M0 85Q150 58 300 85T600 85T900 85T1200 85T1500 85T1800 85V120H0Z" fill="#34d399" fill-opacity=".2"/></g>
+  <text class="t" x="600" y="46">Astana, Kazakhstan  ·  building things that can be checked</text>
+</svg>

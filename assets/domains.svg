@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Three domains: procurement and finance, BIM and construction, oil and gas">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+  <style>
+    .bg{fill:#0d1117}
+    .card{fill:#111c2b;stroke:#1f3347;stroke-width:1.5;animation:lift 6s ease-in-out infinite}
+    .c2{animation-delay:2s}.c3{animation-delay:4s}
+    @keyframes lift{0%,100%{stroke:#1f3347}50%{stroke:#34d399}}
+    .h{font:700 19px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#f8fafc}
+    .t{font:400 14px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#94a3b8}
+    .k{font:600 12px ui-monospace,Menlo,Consolas,monospace;fill:#34d399;letter-spacing:1px}
+    .bar{fill:url(#g);transform-box:fill-box;transform-origin:left;animation:grow 4s ease-out infinite alternate}
+    @keyframes grow{from{transform:scaleX(.15)}to{transform:scaleX(1)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect class="bg" width="1200" height="250" rx="16"/>
+  <g transform="translate(30 30)">
+    <rect class="card" width="350" height="190" rx="12"/>
+    <text class="k" x="24" y="34">01 / PROCUREMENT + FINANCE</text>
+    <text class="h" x="24" y="68">Agents that justify spend</text>
+    <text class="t" x="24" y="98">Supplier vetting, spend analysis,</text>
+    <text class="t" x="24" y="120">ROI, NPV and IRR for AI budgets.</text>
+    <rect x="24" y="150" width="300" height="6" rx="3" fill="#1f3347"/><rect class="bar" x="24" y="150" width="300" height="6" rx="3"/>
+  </g>
+  <g transform="translate(425 30)">
+    <rect class="card c2" width="350" height="190" rx="12"/>
+    <text class="k" x="24" y="34">02 / BIM + CONSTRUCTION</text>
+    <text class="h" x="24" y="68">Models you can check</text>
+    <text class="t" x="24" y="98">IFC and IDS validation, quantity</text>
+    <text class="t" x="24" y="120">deltas, BCF issues, copilot Q&amp;A.</text>
+    <rect x="24" y="150" width="300" height="6" rx="3" fill="#1f3347"/><rect class="bar" x="24" y="150" width="300" height="6" rx="3" style="animation-delay:.6s"/>
+  </g>
+  <g transform="translate(820 30)">
+    <rect class="card c3" width="350" height="190" rx="12"/>
+    <text class="k" x="24" y="34">03 / OIL + GAS</text>
+    <text class="h" x="24" y="68">Physics plus learning</text>
+    <text class="t" x="24" y="98">Arps decline curves with learned</text>
+    <text class="t" x="24" y="120">residuals on the public Volve data.</text>
+    <rect x="24" y="150" width="300" height="6" rx="3" fill="#1f3347"/><rect class="bar" x="24" y="150" width="300" height="6" rx="3" style="animation-delay:1.2s"/>
+  </g>
+</svg>
