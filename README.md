@@ -16,9 +16,9 @@ Second-year B.Eng. Civil Engineering at Cardiff University Kazakhstan, Altyn Bel
 
 - **AI Engineering Intern, [KazMunayGas](https://kmg.kz)** (Jul-Sep 2026). Text-to-SQL platform on the live data warehouse for the Management Board and Board of Directors: the model picks from a hand-written semantic layer and fixed code builds every query. 1,260+ tests, evals across four LLM providers. Also an AI audit platform for IT budgets across a 64-company group.
 - **Independent AI and software engineer** (Nov 2025 - now). Production software for energy, construction and healthcare clients. RAG agents and OCR-to-CRM/ERP automation that cut manual document processing 60%.
-- **Axion** (founder, sole engineer). 2D drawings to checked BIM models plus a citation-only copilot. Piloting with KazTransOil's R&D Centre.
+- **Axion** (founder, sole engineer). 2D drawings to checked BIM models plus a citation-only copilot. Piloting with [KazTransOil](https://kaztransoil.kz)'s R&D Centre.
 - **Synarch, formerly KazLex AI.** Legal RAG for the General Prosecutor's Office of Kazakhstan: 3,350+ articles, every citation verified against the source text. Multi-agent control kernel with human approval and a tamper-evident log.
-- **R&D intern, KazTransOil** (Jun-Aug 2025). Data baseline from 1,000+ pipeline-network records for the AI-adoption review.
+- **R&D intern, [KazTransOil](https://kaztransoil.kz)** (Jun-Aug 2025). Data baseline from 1,000+ pipeline-network records for the AI-adoption review.
 
 ### Open source
 
