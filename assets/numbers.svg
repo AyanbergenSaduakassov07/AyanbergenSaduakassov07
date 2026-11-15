@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Key numbers: 99% matching accuracy, under 20 seconds drawing to BIM, 87.3% recall at 10, 130+ society members">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Key numbers: 99% matching accuracy, under 20 seconds drawing to BIM, 87.3% recall at 10, 1,260+ automated tests">
   <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
   <style>
     .bg{fill:#0d1117}
@@ -16,5 +16,5 @@
   <g class="in"><rect class="tile glow" x="30" y="25" width="270" height="120" rx="12"/><text class="n" x="54" y="82">37→99%</text><text class="l" x="54" y="112">drawing-to-BIM matching accuracy</text><text class="l" x="54" y="130">30-building benchmark (Axion)</text></g>
   <g class="in d2"><rect class="tile glow" x="320" y="25" width="270" height="120" rx="12"/><text class="n" x="344" y="82">&lt;20 s</text><text class="l" x="344" y="112">2D drawings to a checked</text><text class="l" x="344" y="130">3D building model</text></g>
   <g class="in d3"><rect class="tile glow" x="610" y="25" width="270" height="120" rx="12"/><text class="n" x="634" y="82">87.3%</text><text class="l" x="634" y="112">recall@10, legal RAG with</text><text class="l" x="634" y="130">citation verification (Synarch)</text></g>
-  <g class="in d4"><rect class="tile glow" x="900" y="25" width="270" height="120" rx="12"/><text class="n" x="924" y="82">130+</text><text class="l" x="924" y="112">members, AIxelera: university AI</text><text class="l" x="924" y="130">society I founded (41% of cohort)</text></g>
+  <g class="in d4"><rect class="tile glow" x="900" y="25" width="270" height="120" rx="12"/><text class="n" x="924" y="82">1,260+</text><text class="l" x="924" y="112">automated tests behind a text-to-SQL</text><text class="l" x="924" y="130">platform on a live data warehouse</text></g>
 </svg>
