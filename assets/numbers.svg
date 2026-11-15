@@ -1,20 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Key numbers: 99% matching accuracy, under 20 seconds drawing to BIM, 87.3% recall at 10, 1,260+ automated tests">
-  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Key numbers">
   <style>
-    .bg{fill:#0d1117}
-    .tile{fill:#111c2b;stroke:#1f3347;stroke-width:1.5}
-    .n{font:800 46px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:url(#g)}
-    .l{font:400 13px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#94a3b8}
-    .in{opacity:0;animation:in 8s ease-out infinite}
-    .d2{animation-delay:.25s}.d3{animation-delay:.5s}.d4{animation-delay:.75s}
-    @keyframes in{0%{opacity:0;transform:translateY(14px)}8%,92%{opacity:1;transform:translateY(0)}100%{opacity:1}}
-    .glow{animation:glow 3s ease-in-out infinite}
-    @keyframes glow{50%{stroke:#34d399}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1}}
+    .bg{fill:#0d1117}.d{stroke:#21262d;stroke-width:1}
+    .n{font:700 40px 'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#f0f6fc;letter-spacing:-1px}
+    .l{font:400 13px 'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#8b949e}
+    .a{animation:i 1s ease-out both}.b{animation-delay:.15s}.c{animation-delay:.3s}.e{animation-delay:.45s}
+    @keyframes i{from{opacity:0;transform:translateY(8px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
-  <rect class="bg" width="1200" height="170" rx="16"/>
-  <g class="in"><rect class="tile glow" x="30" y="25" width="270" height="120" rx="12"/><text class="n" x="54" y="82">37→99%</text><text class="l" x="54" y="112">drawing-to-BIM matching accuracy</text><text class="l" x="54" y="130">30-building benchmark (Axion)</text></g>
-  <g class="in d2"><rect class="tile glow" x="320" y="25" width="270" height="120" rx="12"/><text class="n" x="344" y="82">&lt;20 s</text><text class="l" x="344" y="112">2D drawings to a checked</text><text class="l" x="344" y="130">3D building model</text></g>
-  <g class="in d3"><rect class="tile glow" x="610" y="25" width="270" height="120" rx="12"/><text class="n" x="634" y="82">87.3%</text><text class="l" x="634" y="112">recall@10, legal RAG with</text><text class="l" x="634" y="130">citation verification (Synarch)</text></g>
-  <g class="in d4"><rect class="tile glow" x="900" y="25" width="270" height="120" rx="12"/><text class="n" x="924" y="82">1,260+</text><text class="l" x="924" y="112">automated tests behind a text-to-SQL</text><text class="l" x="924" y="130">platform on a live data warehouse</text></g>
+  <rect class="bg" width="1200" height="150" rx="14"/>
+  <line class="d" x1="300" y1="28" x2="300" y2="122"/><line class="d" x1="600" y1="28" x2="600" y2="122"/><line class="d" x1="900" y1="28" x2="900" y2="122"/>
+  <g class="a"><text class="n" x="50" y="72">37 → 99%</text><text class="l" x="50" y="98">drawing-to-BIM matching accuracy</text></g>
+  <g class="a b"><text class="n" x="350" y="72">&lt; 20 s</text><text class="l" x="350" y="98">2D drawings to a checked 3D model</text></g>
+  <g class="a c"><text class="n" x="650" y="72">87.3%</text><text class="l" x="650" y="98">recall@10, cited legal RAG</text></g>
+  <g class="a e"><text class="n" x="950" y="72">1,260+</text><text class="l" x="950" y="98">tests behind a text-to-SQL platform</text></g>
 </svg>
