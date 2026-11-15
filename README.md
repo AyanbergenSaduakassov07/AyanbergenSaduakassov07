@@ -33,6 +33,9 @@ Second-year B.Eng. Civil Engineering at Cardiff University Kazakhstan, Altyn Bel
   <img src="https://raw.githubusercontent.com/AyanbergenSaduakassov07/AyanbergenSaduakassov07/output/snake.svg" alt="Contribution graph" width="100%"/>
 </picture>
 
-**Stack:** Python, TypeScript, SQL, FastAPI, React, Next.js, PostgreSQL, PyTorch, IfcOpenShell, MCP.
+### Stack
+
+<img src="assets/stack.svg" alt="Technology stack" width="100%"/>
+
 **Research:** Lumiere Research Scholar, Pioneer Academics, Algoverse AI Research.
 **Contact:** [LinkedIn](https://www.linkedin.com/in/ayanbergensaduakassov) · [ayansaduakassov@gmail.com](mailto:ayansaduakassov@gmail.com)
