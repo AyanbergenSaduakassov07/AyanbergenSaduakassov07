@@ -10,11 +10,16 @@
 
 ## About
 
-I build AI systems for domains where a wrong answer costs money: procurement, construction models, oil and gas. Civil engineering student at Cardiff University Kazakhstan, Altyn Belgi scholar.
+Forward-deployed AI engineer and civil engineering student (B.Eng., Cardiff University Kazakhstan; Altyn Belgi State Scholar, top 4% nationally). I build AI systems for domains where a wrong answer costs money: construction, energy, procurement, law.
 
-My working rule: the model proposes, deterministic code and evals decide. That means schema-bound tool calls instead of free-form SQL, citations on every extracted claim, and regression suites before new features.
+My working rule: the model proposes, deterministic code and evals decide. That means schema-bound tool calls instead of free-form SQL, citations verified against source text, and regression suites before new features.
 
-- **Now:** LLM agents, RAG and text-to-SQL; BIM quality checks (IFC, IDS); physics-informed forecasting.
+- **Building:** [Axion](https://github.com/AyanbergenSaduakassov07/Axion-Bim), drawings to checked BIM models, with a citation-only copilot. I am the sole engineer.
+- **Also:** Synarch, a multi-agent platform with a human-approval control kernel and a legal RAG module (private).
+- **Founder:** AIxelera, a university AI and engineering society, 130+ members in 3 months.
+- **Languages:** English (IELTS 8.0), Russian, Kazakh.
+
+<img src="assets/numbers.svg" alt="Key numbers" width="100%"/>
 
 <img src="assets/domains.svg" alt="Three domains: procurement and finance, BIM and construction, oil and gas" width="100%"/>
 
@@ -23,7 +28,7 @@ My working rule: the model proposes, deterministic code and evals decide. That m
 | Project | What it does | Stack |
 |---|---|---|
 | [**qazsupply-procurement-os**](https://github.com/AyanbergenSaduakassov07/qazsupply-procurement-os) | AI procurement, supplier vetting and spend analysis for Kazakhstan. Multi-tenant prototype on synthetic data. | Python, FastAPI, Postgres RLS, Next.js |
-| [**Axion-Bim**](https://github.com/AyanbergenSaduakassov07/Axion-Bim) | Quality control for building information models: IFC checks, IDS validation, quantity deltas, BCF issues. | Python, IFC, FastAPI, React |
+| [**Axion-Bim**](https://github.com/AyanbergenSaduakassov07/Axion-Bim) | Quality control for building information models: IFC checks, IDS validation, quantity deltas, BCF issues. | Python, IfcOpenShell, FastAPI, React |
 | [**MeetingOS**](https://github.com/AyanbergenSaduakassov07/MeetingOS) | Meeting intelligence: transcription, extraction, verification and governance records, with citations. | Python |
 | [**agent-roi-calculator**](https://github.com/AyanbergenSaduakassov07/agent-roi-calculator) | Calculator that justifies AI-agent budgets: savings, payback, NPV/IRR, ROI, Excel and PDF export. | TypeScript, Next.js |
 | [**budget-audit-assistant**](https://github.com/AyanbergenSaduakassov07/budget-audit-assistant) | Chat-first prototype that audits corporate IT-budget Excel forms and drafts review conclusions. | Python, Streamlit |
@@ -50,7 +55,12 @@ My working rule: the model proposes, deterministic code and evals decide. That m
 
 **AI:** LLM tool use and agents, RAG with citations, text-to-SQL over a semantic layer, evals and guardrails (Claude and Gemini APIs).
 **Data and engineering:** pandas, SQL, Postgres row-level security, pytest, vitest, Jest, ruff, mypy, GitHub Actions.
-**Domain:** BIM (IFC, IDS, BCF), structural and civil engineering, oil and gas decline analysis (Arps, EUR, P10/P90).
+**ML:** PyTorch, scikit-learn, XGBoost, time-series forecasting, computer vision (OpenCV), Whisper, MLflow.
+**Domain:** BIM (IFC, IDS, BCF, IfcOpenShell), structural analysis (PyNite), structural and civil engineering, oil and gas decline analysis (Arps, EUR, P10/P90).
+
+## Honours
+
+Bronze, Copernicus International Physics Olympiad · Gold, StemCO · Best in Year, UK Mathematics Trust Challenge · Lumiere Research Scholar · Pioneer Academics · Algoverse AI Research · Taekwondo black belt, 11 years of competition.
 
 ## How I work
 
